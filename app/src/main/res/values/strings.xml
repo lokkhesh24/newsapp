@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">News Genie</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string name="login_1">Login</string>
+    <string name="newusername">New Username</string>
+    <string name="confirmpass">Confirm password</string>
+    <string name="newpass">New password</string>
+    <string name="create">Create</string>
+    <string name="business">BUSINESS</string>
+    <string name="general">GENERAL</string>
+    <string name="sports">SPORTS</string>
+    <string name="health">HEALTH</string>
+    <string name="entertainment">ENTERTAINMENT</string>
+    <string name="technology">TECHNOLOGY</string>
+    <string name="science">SCIENCE</string>
+    <string name="anime">ANIME</string>
+    <string name="news_feed">News Feed</string>
+    <string name="LOGOUT">\n</string>
+    <string name="logout" />
+    <string name="login_now">login now</string>
+
+
+</resources>

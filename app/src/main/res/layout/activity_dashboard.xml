@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news_feed"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/purple"
+        android:id="@+id/app_title"/>
+    <TextView
+        android:id="@+id/userdetails"
+        android:textSize="20sp"
+        android:textColor="@color/purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple"
+        android:id="@+id/logout"
+        android:text="logout"/>
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+
+        android:id="@+id/horizontal_buttons">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_1"
+                android:backgroundTint="@color/purple"
+                android:layout_margin="6dp"
+                android:text="@string/general">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_2"
+                android:backgroundTint="@color/purple"
+                android:layout_margin="6dp"
+                android:text="@string/business">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_3"
+                android:backgroundTint="@color/purple"
+                android:layout_margin="6dp"
+                android:text="@string/sports">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_4"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/purple"
+                android:text="@string/health">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_5"
+                android:backgroundTint="#3E4261"
+                android:layout_margin="6dp"
+                android:text="@string/entertainment">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_6"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/purple"
+                android:text="@string/technology">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_7"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/purple"
+                android:text="@string/science">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_8"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/purple"
+                android:text="@string/anime">
+
+            </Button>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:id="@+id/progress_bar"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_recycler_view"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECECEC"
+        tools:context=".BottomNavigation">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#AB89E6"
+            app:menu="@menu/navigation_items"
+            app:itemRippleColor="@color/white"
+            app:itemIconTint="@color/icons_color">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

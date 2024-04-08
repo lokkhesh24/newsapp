@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734516413449",
+    "project_id": "newsapp-register-firebase",
+    "storage_bucket": "newsapp-register-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734516413449:android:03d1c7686fa683f9eea4d8",
+        "android_client_info": {
+          "package_name": "com.example.news_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdhoyPR-bJTSsjBV6E_pn63VYnQW6bi_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
